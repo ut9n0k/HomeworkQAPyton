@@ -50,5 +50,8 @@ marta = {
     "coordinates": (50.4851593, 30.4725233)
 }
 
-print(john.items())
-print(marta.items())
+for a, b in john.items():
+    print(a, b)
+
+for a, b in marta.items():
+    print(a, b)
