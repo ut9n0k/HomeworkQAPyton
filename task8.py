@@ -26,7 +26,8 @@ marta = {
     "friends": ["Hanna", "Rio", "Viki"],
     "coordinates": (50.4851593, 30.4725233)
 }
-print(john)
-print(marta)
+for a, b in john.items():
+    print(a, b)
 
-
+for c, d in marta.items():
+    print(c, d)
