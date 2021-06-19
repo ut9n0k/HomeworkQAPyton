@@ -31,3 +31,7 @@ for a, b in john.items():
 
 for c, d in marta.items():
     print(c, d)
+
+# you can print dicts in next way^
+# for key, value in marta.items():
+#     print(f"{key} => {value}")

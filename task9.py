@@ -5,7 +5,7 @@ alex = {
     "age": 44,
     "salary": 5040.40,
     "gender": True,
-    "friends": ["Ivan", "John"],
+    "friends": ["Ivan", "John"],  # Good but this friends also should be dicts if ivan has friends
     "coordinates": (50.4851499, 30.4721239)
 }
 ivan = {
@@ -13,7 +13,7 @@ ivan = {
     "age": 10,
     "salary": 10000.40,
     "gender": True,
-    "friends": ["Alex", "John"],
+    "friends": ["Alex", "John"],  # Good but this friends also should be dicts if ivan has friends
     "coordinates": (50.4851498, 30.4791239)
 }
 john = {
@@ -30,7 +30,7 @@ hanna = {
     "age": 39,
     "salary": 699.99,
     "gender": False,
-    "friends": ["Marta", "Viki"],
+    "friends": ["Marta", "Viki"],  # Good but this friends also should be dicts if hanna has friends
     "coordinates": (60.4851593, 60.4725233)
 }
 viki = {
@@ -38,7 +38,7 @@ viki = {
     "age": 66,
     "salary": 66.66,
     "gender": False,
-    "friends": ["Hanna", "Marta"],
+    "friends": ["Hanna", "Marta"],  # Good but this friends also should be dicts if viki has friends
     "coordinates": (50.4851566, 30.4725266)
 }
 marta = {
@@ -55,3 +55,5 @@ for a, b in john.items():
 
 for a, b in marta.items():
     print(a, b)
+
+# Good. But here were present not clear description for task. You should ask lean to clarify them.

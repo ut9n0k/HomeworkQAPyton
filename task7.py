@@ -4,3 +4,4 @@
 a = (50.4851493, 30.4721233)
 b = (50.4851593, 30.4725233)
 print(a, b)
+# Good but you should clarify requirements if they are not clear with lead.
