@@ -2,17 +2,17 @@
 # Есть группа гостей в общем зале и места в нем все еще есть. Отобразите 2 группы гостей в коде.
 
 vip = {
-    1: 'Vitya',
-    2: 'Galya',
-    3: 'Pesto',
-    4: 'Ivan',
-    5: 'Marta'
+    1: 'Vitya Kitsya',
+    2: 'Galya Smit',
+    3: 'Pesto Pasto',
+    4: 'Ivan Banan',
+    5: 'Marta Sparta'
 }
 bastards = {
-    1: 'Lily',
-    2: 'Harry',
+    1: 'Lily Lolly',
+    2: 'Harry Ivi',
     3: None,
-    4: 'Ivan',
+    4: 'Ivan Banan',
     5: None
 }
 
