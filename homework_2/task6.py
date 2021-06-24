@@ -4,4 +4,12 @@
 # "John Dow", "John Dow", "Marta Dow" => "John Dow", "Marta Dow")
 
 list = ['John', 'Ivan', 'Marta', 'Marishka', 'Hou', 'John']
-print(list.pop(0))
+
+list_new = []
+for item in list:
+    if item not in list_new:
+        list_new.append(item)
+
+for item in list_new:
+    print(item)
+
