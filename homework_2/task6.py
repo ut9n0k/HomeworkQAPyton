@@ -13,3 +13,7 @@ for item in list:
 for item in list_new:
     print(item)
 
+# Good. I think this solution is little bit over engineered.
+# So take a look how it could be one with dicts
+
+# print(list({}.fromkeys(list_of_guests).keys()))

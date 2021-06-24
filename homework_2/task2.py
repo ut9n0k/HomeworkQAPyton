@@ -5,3 +5,6 @@ global_logic = ['John', 'Vova', 'Sergey', 'Valeriy']
 toshiba = ['John', 'Tanya', 'Sergey', 'Vika']
 global_logic.extend(toshiba)
 print(global_logic)
+# Good but I think that some ot employees in this case still stay as employees of global logic so I suppose you should fire them from global logic company
+# global_logic.clear()
+# also you have absorb toshiba instead of global logic

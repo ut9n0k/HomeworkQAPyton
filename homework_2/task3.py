@@ -5,3 +5,5 @@ bigno_blacklist = {"John Dow", 'Marta Hey', 'Gaga Gaga'}
 poker_blacklist = {"John Dow", 'Harry Hai', 'Gugu Gaga'}
 majong_blacklist = {"John Dow", 'Hou Hou', 'Gigi Gigi'}
 print(bigno_blacklist.intersection(poker_blacklist, majong_blacklist))
+
+# Good

@@ -17,3 +17,11 @@ bastards = {
 }
 
 print(vip, bastards)
+
+# Good but in my opinion it is over engineered.
+# And in this case I suppose vip quests can be increased.
+# You should be shure that vip guests will never increased if someonve will try to increase them.
+# you can create simple tuple and be sure that this group is static
+# vip_quests = ("Jake Mann", "Lisa Blum", "Rick Snow")
+# If you want to set some number for guest you should use tuple of tuples
+# vip_guests = ((1, "Jake Mann"), (2, "Lisa Blum"), (3, "Rick Snow"))
