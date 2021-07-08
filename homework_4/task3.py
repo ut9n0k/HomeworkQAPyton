@@ -6,21 +6,11 @@
 query = "     name=Amanda=sssss&age=32&&salary=1500&currency=quro                             ".strip()
 my_dict = {}
 pairs = (query.split('&'))
+print(pairs)
 
-#for pair in pairs:
-#     print(pair.split('=', maxsplit=1))
+for pair in pairs:
+    if pair != '':
+        a, b = pair.split('=', maxsplit=1)
+        my_dict[a] = b
 
-# dict(pairs.split('=') for pairs in str.split())
-
-
-
-
-
-
-
-
-
-# dict(my_dict.split('=') for my_dict in query.split())
-# for pare in seperated:
-#    my_dict.items()
-# print(my_dict)
+print(my_dict)
