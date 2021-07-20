@@ -4,8 +4,6 @@
 import os
 os.chdir("./test/data")
 
-import pickle
-
 with open("text.txt", "rb") as file:
     byte_text = file.read()
     q = pickle.loads(byte_text)
