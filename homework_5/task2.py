@@ -2,6 +2,8 @@
 # Результат операции вывести в консоль. Использовать импорты для импортирования из модуля первой задачи нельзя.
 
 import os
+import pickle
+
 os.chdir("./test/data")
 
 with open("text.txt", "rb") as file:
