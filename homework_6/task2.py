@@ -11,3 +11,6 @@ def square(a):
 
 
 print(square(5))
+
+# Not bad but tuple with 3 numbers should be in the return value instead of string)
+# also hard to understand what is a, s, d.
