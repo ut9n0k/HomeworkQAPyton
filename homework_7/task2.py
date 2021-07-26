@@ -61,4 +61,4 @@ if __name__ == "__main__":
     # for tuple
     print(map_for_sequences(lambda name: f"Hello, {name}! How are you?", my_tuple))
     # for dict
-    print(map_for_sequences(lambda item: item["salary"] * item["salary"], my_dict))
+    print(map_for_sequences(lambda item: (item["name"], item["lastname"]), my_dict))
