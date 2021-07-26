@@ -12,7 +12,7 @@ from typing import Union
 """
 
 
-def filter_for_sequences(callback, sequence: Union[list, tuple, dict]) -> Union[list, tuple, dict]:
+def filter_for_sequences(callback, sequence: Union[list, tuple, dict]) -> Union[list, tuple, dict, str]:
     result = []
     if type(sequence) == list:
         for item in sequence:
@@ -34,6 +34,9 @@ def filter_for_sequences(callback, sequence: Union[list, tuple, dict]) -> Union[
                 new_dict[key] = value
         return new_dict
 
+    else:
+        return f"Sorry, your sequence has unsupported type"
+
 
 if __name__ == "__main__":
     my_list = [10, 200, 3003, 40.44, 500.55]
@@ -52,6 +55,8 @@ if __name__ == "__main__":
             "salary": 400.44
         }
     }
+    my_suit = {"Hello", "Bye"}
+
     # for list
     print(filter_for_sequences(lambda num: num % 2 == 0, my_list))
     # for tuple
@@ -59,3 +64,5 @@ if __name__ == "__main__":
     # for dict
     print(filter_for_sequences(lambda item: item["age"] == 44, my_dict))
     print(filter_for_sequences(lambda item: item["name"].endswith('n'), my_dict))
+    # for suit
+    print(filter_for_sequences(lambda num: num % 2 == 0, my_suit))
