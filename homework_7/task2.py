@@ -8,7 +8,7 @@
 from typing import Union
 
 """
-    Function for sequences filtering
+    Function for sequences mapping
 """
 
 
