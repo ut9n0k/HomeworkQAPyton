@@ -23,3 +23,5 @@ def multiply(x, y):
 
 print(amount(7, 7))
 print(multiply(7, 7))
+
+# Perfect

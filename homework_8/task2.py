@@ -14,3 +14,4 @@ print(next(range_square))
 print(next(range_square))
 print(next(range_square))
 print(next(range_square))
+# perfect
