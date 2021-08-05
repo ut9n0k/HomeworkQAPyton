@@ -84,3 +84,4 @@ if __name__ == "__main__":
     print(employee.get_full_info_about_employee)
     print(employee.bonuses(1500, 20))
     print(employee.get_full_name())
+# Good code but it could be better if you will modify state of object in some method -2 points

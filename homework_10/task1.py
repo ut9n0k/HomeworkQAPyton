@@ -88,3 +88,4 @@ if __name__ == "__main__":
     print(cd_projekt_red.get_full_info_about_company)
     print(cd_projekt_red.mail_for_new_employee(1111))
     print(cd_projekt_red.get_name(), cd_projekt_red.get_site())
+# Good code but it could be better if you will modify state of object in some method -2 points
