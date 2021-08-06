@@ -22,3 +22,6 @@ class Mammal(ABC):
             reproduce some noise
         """
         pass
+
+# Good. If you want to share this fields for child classes you can make
+# them protected
