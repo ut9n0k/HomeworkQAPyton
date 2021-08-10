@@ -11,10 +11,14 @@ class Animal:
         self.Food = food
         self.Existence = existence
 
+    def __clean(self, item) -> str:
+        result = item.replace(f"_{self.__class__.__name__}__", "")
+        return result
+
     def __str__(self):
         out_str = f"{self.__class__.__name__}: {{"
         for key, value in self.__dict__.items():
-            out_str += f"\n\t{key}: {value}"
+            out_str += f"\n\t{self.__clean(key)}: {self.__clean(value)}"
         out_str += f"\n}}\n\n"
         return out_str
 
