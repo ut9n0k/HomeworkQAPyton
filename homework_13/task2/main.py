@@ -9,13 +9,18 @@
 # У каждого вагона должен быть номер.
 # При принте вагона в консоль хочу видеть следующее "[n]" где n номер вагона.
 
-from homework_13.task2.Train import Train
-from homework_13.task2.TrainCar import TrainCar
+# from homework_13.task2.Train import Train
+# from homework_13.task2.TrainCar import TrainCar
+from MariaMIshustina.HomeworkQAPyton.homework_13.task2.Train import Train
+from MariaMIshustina.HomeworkQAPyton.homework_13.task2.TrainCar import TrainCar
 
 if __name__ == '__main__':
     train = Train(1)
     traincar_1 = TrainCar(1, 10)
 
-    print(f"Num of the 1st traincar is {traincar_1}")
-    print(train.add_traincar)
-
+    # print(f"Num of the 1st traincar is {traincar_1}")
+    # print(train.add_traincar)
+    # print(len(traincar_1))
+    # print(len(traincar_1))
+    # TypeError: 'int' object is not callable
+    # well almost works. You should not make magic methods like properties remove decorator -3 points

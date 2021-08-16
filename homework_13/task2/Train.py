@@ -1,6 +1,6 @@
 from typing import List
 
-from homework_13.task2.TrainCar import TrainCar
+from TrainCar import TrainCar
 
 
 class Train:
