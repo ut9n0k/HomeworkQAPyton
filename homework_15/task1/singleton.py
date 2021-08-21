@@ -7,3 +7,5 @@ def singleton(__class: Type):
             setattr(__class, "instance", __class(*args))
         return getattr(__class, "instance")
     return inner
+
+# well nice but instance is public attribute instead of private -3 points

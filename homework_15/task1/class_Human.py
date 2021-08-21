@@ -18,3 +18,8 @@ if __name__ == '__main__':
     ping = Human("Ping", "Pong", 33, False)
     print(harry)
     print(ping)
+
+# Good but take a look on module name
+# lets name it like human in lowercase
+# you should use snake case or camel case but not both in same time
+# there are no sence to name module like class_Human. Better wil be human.py
