@@ -1,5 +1,5 @@
-from test.pages.BaseApp import BasePage
 from selenium.webdriver.common.by import By
+from homework_18.base_page import BasePage
 
 
 class GoodWineLocators:
@@ -19,4 +19,3 @@ class Search(BasePage):
     def add_to_cart(self):
         cart_button = self._find_element(GoodWineLocators.ADD_TO_CART_BUTTON_LOCATOR)
         cart_button.click()
-
