@@ -10,3 +10,5 @@ for item in camel:
             snake.append(item.replace(letter, '_' + letter).lower())
 
 print(snake)
+
+# Good.
